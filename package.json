@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/likhons306/Luma/issues"
   },
@@ -26,6 +26,7 @@
     "@types/node": "^24.9.1",
     "@types/react": "^19.2.2",
     "@webcontainer/api": "^1.6.1",
+    "@xterm/xterm": "^5.5.0",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
     "next": "^16.0.0",
@@ -33,10 +34,13 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.3.1",
-    "typescript": "^5.9.3",
-    "xterm": "^5.3.0"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/xterm": "^2.0.3"
+    "@tailwindcss/postcss": "^4.1.16",
+    "autoprefixer": "^10.4.21",
+    "eslint-config-next": "^16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16"
   }
 }

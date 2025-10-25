@@ -3,8 +3,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { WebContainer } from '@webcontainer/api';
-import { Terminal } from 'xterm';
-import 'xterm/css/xterm.css';
+import { Terminal } from '@xterm/xterm';
+import '@xterm/xterm/css/xterm.css';
 
 const TerminalComponent = () => {
   const containerRef = useRef<HTMLDivElement>(null);
